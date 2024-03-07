@@ -1,5 +1,13 @@
 bot:
   alliance:
-    creation_title: '1. :shield: Alliance Creation - Forging Bonds and Glory'
-    creation_description: 'Welcome to the realm of alliances! With our advanced Alliance Creation feature, you can bring together fellow adventurers, warriors and strategists to form an unstoppable alliance. Collaborate, plan, and conquer as a unified force!'
-    creation_field1_title: 'Benefits of Alliance:'
+    creation_embed_title: '1. :shield: Alliance Creation - Forging Bonds and Glory'
+    creation_embed_description: 'Welcome to the realm of alliances! With our advanced Alliance Creation feature, you can bring together fellow adventurers, warriors and strategists to form an unstoppable alliance. Collaborate, plan, and conquer as a unified force!'
+    creation_embed_field1_title: 'Benefits of Alliance:'
+    creation_embed_field1_value: ':handshake: **Strength in Unity:** Combine the diverse strengths of your members for unbeatable power.\n:trophy: **Achievement Rewards:** Celebrate victories with epic rewards and recognition.\n:japanese_castle: **Strong Community:** Form lasting friendships!'
+    creation_embed_footer: 'May the bonds you create be unbreakable, and the glory you achieve, everlasting!'
+    management_embed_title: 'Alliance Info"'
+    management_embed_field1_title: ':scroll: **Alliance name:**'
+    management_embed_field1_value: '{alliance_name}' # replace . with _ in variables
+    management_embed_field2_title: ':family_mmgb: **User limit:**'
+    management_embed_field2_value: '{alliance_user_limit}'
+    
