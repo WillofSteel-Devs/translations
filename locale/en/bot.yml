@@ -17,3 +17,6 @@ bot:
     management_embed_field1_value: '{alliance_name}'
     management_embed_field2_title: ':family_mmgb: **User limit:**'
     management_embed_field2_value: '{alliance_user_limit}'
+    error_member_of_alliance: "You're already in an alliance, leave it to create your own!"
+    error_not_enough_rubies: "You don't have enough rubies to make an alliance. You need `600` {ruby_emote}."
+    error_invalid_name: 'An alliance already exists with this name!'
