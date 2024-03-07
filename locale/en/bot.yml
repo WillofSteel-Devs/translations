@@ -7,7 +7,7 @@ bot:
     creation_embed_footer: 'May the bonds you create be unbreakable, and the glory you achieve, everlasting!'
     management_embed_title: 'Alliance Info"'
     management_embed_field1_title: ':scroll: **Alliance name:**'
-    management_embed_field1_value: '{alliance_name}' =
+    management_embed_field1_value: '{alliance_name}' 
     management_embed_field2_title: ':family_mmgb: **User limit:**'
     management_embed_field2_value: '{alliance_user_limit}'
     
