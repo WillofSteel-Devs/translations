@@ -1,1 +1,5 @@
-bot: {}
+bot:
+  alliance:
+    creation_embed_field1_title: "Bénéficede l'Alliance :"
+    creation_embed_field1_value: ':handshake: **Force en Unité:** Combine le force
+      varié de votre members pour force imbattable.\n:trophy: **Récompense de la Prouesse:**'
