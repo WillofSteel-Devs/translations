@@ -1,16 +1,50 @@
 alliance:
-  creation_embed_title: '1. :shield: एलायंस क्रिएशन - फोर्जिंग बॉन्ड्स एंड ग्लोरी'
-  creation_embed_description: 'गठबंधन के दायरे में आपका स्वागत है! हमारी उन्नत एलायंस क्रिएशन सुविधा के साथ, आप एक अजेय गठबंधन बनाने के लिए साथी साहसी, योद्धाओं और रणनीतिकारों को एक साथ ला सकते हैं। एक एकीकृत शक्ति के रूप में सहयोग करें, योजना बनाएं और जीत हासिल करें!'
-  creation_embed_field1_title: 'गठबंधन के लाभ:'
-  creation_embed_field1_value: ":handshake: **एकता में ताकत:** अपराजेय शक्ति के लिए अपने सदस्यों की विविध शक्तियों को मिलाएं।\n:trophy: **उपलब्धि पुरस्कार:** महाकाव्य पुरस्कारों और मान्यता के साथ जीत का जश्न मनाएं।\n:japanese_castle: **मजबूत समुदाय:** स्थायी मित्रता बनाएँ!"
-  creation_embed_footer: 'आपके द्वारा बनाए गए बंधन अटूट हों, और आपके द्वारा प्राप्त की गई महिमा चिरस्थायी हो!'
-  management_embed_title: 'गठबंधन की जानकारी'
-  management_embed_field1_title: ':scroll: **गठबंधन का नाम:**'
-  management_embed_field2_title: ':family_mmgb: **उपयोगकर्ता सीमा:**'
-  creation_success_embed_title: 'निम्नलिखित गठबंधन सफलतापूर्वक बनाया गया:'
-  creation_success_embed_field1_title: '**गठबंधन का नाम:**'
-  creation_success_embed_field2_title: '**उपयोगकर्ता सीमा:**'
-  creation_success_embed_footer: 'उन्हें दिखाओ कि कौन शासन है.'
+  creation_embed:
+    title: '1. :shield: Alliance Creation - Forging Bonds and Glory'
+    description: 'Welcome to the realm of alliances! With our advanced Alliance Creation feature, you can bring together fellow adventurers, warriors and strategists to form an unstoppable alliance. Collaborate, plan, and conquer as a unified force!'
+    field1:
+      title: 'Benefits of Alliance:'
+      value: ":handshake: **Strength in Unity:** Combine the diverse strengths of your members for unbeatable power.\n:trophy: **Achievement Rewards:** Celebrate victories with epic rewards and recognition.\n:japanese_castle: **Strong Community:** Form lasting friendships!"
+    footer: 'May the bonds you create be unbreakable, and the glory you achieve, everlasting!'
+  management_embed:
+    title: "**:gear: Alliance Management:**"
+    desc: "This view menu is **only** for the owner of the alliance.\nThe owner has to note that any change cannot be undone."
+  creation_success_embed:
+    title: 'Successfully created the following alliance:'
+    field1:
+      title: '**Alliance name:**'
+    field2:
+      title: '**User limit:**'
+    footer: 'Show them who rules.'
+  members_embed:
+    title: 'Alliance Members'
+  wars_embed:
+    title: 'Wars:'
+    description_ifwars: "These are all the wars our alliance is currently in.\nFor specific information, click any of the wars in the dropdown menu."
+    description_nowars: 'We have yet to show our war potential. Things are peaceful around here.'
+  truce_embed:
+    title: '**Alliance truced wars:**'
+    desc_truced: "These are all the alliances we have and signed the truce with.\nFor specific information, click any of the wars in the dropdown menu."
+    desc_notruce: 'We have yet to seal any deal of peace with our enemies!'
+  transactions_embed:
+    title: "**Alliance Transactions:**"
+    desc: "These are all the transactions made by the alliance members.\nFor specific information, click any of the transactions in the dropdown menu."
+    desc_no_transactions: "You don't seem to have any transactions yet."
+  management_buttons:
+    alliance_members: 'Members'
+    alliance_wars: 'Wars'
+    alliance_peace: 'Peace'
+    alliance_disband: 'Alliance Management'
+    alliance_view_transactions: 'View Transactions'
+  alliance_war_format:
+    against_title: 'War against `{defender}` (War ID: `{war_id}`)'
+    against_desc: "**Attacker:** {attacker}\n{emote1} **Truced**: No\n{emote2} **Attacker Truce Request:** {attacker_truce}\n{emote3} **Defender Truce Request:** {defender_truce}"
+    with_title: 'War with `{attacker}` (War ID: `{war_id}`)'
+    with_desc: "**Defender:** {defender}\n{emote1} **Truced**: No\n{emote2} **Attacker Truce Request:** {attacker_truce}\n{emote3} **Defender Truce Request:** {defender_truce}"
+  alliance_truce_format:
+    attacker: "{emote1} **Attacker:** {attacker}\n{emote2} **Truced:** Yes"
+    defender: "{emote1} **Defender:** {defender}\n{emote2} **Truced:** Yes"
   error_member_of_alliance: "आप पहले से ही एक गठबंधन में हैं, अपना खुद का गठबंधन बनाने के लिए इसे छोड़ दें!"
   error_not_enough_rubies: "आपके पास गठबंधन बनाने के लिए पर्याप्त माणिक नहीं हैं। आपको `600` {ruby_emote} की आवश्यकता है।"
   error_invalid_name: 'इस नाम से एक गठबंधन पहले से ही मौजूद है!'
+  error_not_owner: "You cannot perform this action as you don't own the alliance."
