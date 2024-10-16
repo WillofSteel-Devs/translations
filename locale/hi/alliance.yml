@@ -1,21 +1,21 @@
 alliance:
   creation_embed:
-    title: '1. :shield: Alliance Creation - Forging Bonds and Glory'
-    description: 'Welcome to the realm of alliances! With our advanced Alliance Creation feature, you can bring together fellow adventurers, warriors and strategists to form an unstoppable alliance. Collaborate, plan, and conquer as a unified force!'
+    title: '1. :shield: एलायंस क्रिएशन - फोर्जिंग बॉन्ड्स एंड ग्लोरी'
+    description: 'गठबंधन के दायरे में आपका स्वागत है! हमारी उन्नत एलायंस क्रिएशन सुविधा के साथ, आप एक अजेय गठबंधन बनाने के लिए साथी साहसी, योद्धाओं और रणनीतिकारों को एक साथ ला सकते हैं। एक एकीकृत शक्ति के रूप में सहयोग करें, योजना बनाएं और जीत हासिल करें!'
     field1:
-      title: 'Benefits of Alliance:'
-      value: ":handshake: **Strength in Unity:** Combine the diverse strengths of your members for unbeatable power.\n:trophy: **Achievement Rewards:** Celebrate victories with epic rewards and recognition.\n:japanese_castle: **Strong Community:** Form lasting friendships!"
-    footer: 'May the bonds you create be unbreakable, and the glory you achieve, everlasting!'
+      title: 'गठबंधन के लाभ:'
+      value: ":handshake: **एकता में ताकत:** अपराजेय शक्ति के लिए अपने सदस्यों की विविध शक्तियों को मिलाएं।\n:trophy: **उपलब्धि पुरस्कार:** महाकाव्य पुरस्कारों और मान्यता के साथ जीत का जश्न मनाएं।\n:japanese_castle: **मजबूत समुदाय:** स्थायी मित्रता बनाएँ!"
+    footer: 'आपके द्वारा बनाए गए बंधन अटूट हों, और आपके द्वारा प्राप्त की गई महिमा चिरस्थायी हो!'
   management_embed:
     title: "**:gear: Alliance Management:**"
     desc: "This view menu is **only** for the owner of the alliance.\nThe owner has to note that any change cannot be undone."
   creation_success_embed:
-    title: 'Successfully created the following alliance:'
+    title: 'निम्नलिखित गठबंधन सफलतापूर्वक बनाया गया:'
     field1:
-      title: '**Alliance name:**'
+      title: '**गठबंधन का नाम:**'
     field2:
-      title: '**User limit:**'
-    footer: 'Show them who rules.'
+      title: '**उपयोगकर्ता सीमा:**'
+    footer: 'उन्हें दिखाओ कि कौन शासन है.'
   members_embed:
     title: 'Alliance Members'
   wars_embed:
