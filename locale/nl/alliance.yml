@@ -1,21 +1,21 @@
 alliance:
   creation_embed:
-    title: '1. :shield: Alliance Creation - Forging Bonds and Glory'
-    description: 'Welcome to the realm of alliances! With our advanced Alliance Creation feature, you can bring together fellow adventurers, warriors and strategists to form an unstoppable alliance. Collaborate, plan, and conquer as a unified force!'
+    title: ':shield: Bondgenootschap creëren - Smeed vriendschappen en glorie'
+    description: 'Welkom tot het rijk van de bondgenootschappen! Met onze geavanceerde bondgenootschappen functie kun je avonturiers, krijgers en strategen samen brengen in een niet te stoppen bondgenootschap. Werk samen, maak plannen en verover als een verenigde kracht!'
     field1:
-      title: 'Benefits of Alliance:'
-      value: ":handshake: **Strength in Unity:** Combine the diverse strengths of your members for unbeatable power.\n:trophy: **Achievement Rewards:** Celebrate victories with epic rewards and recognition.\n:japanese_castle: **Strong Community:** Form lasting friendships!"
-    footer: 'May the bonds you create be unbreakable, and the glory you achieve, everlasting!'
+      title: 'Voordelen van een bondgenootschap:'
+      value: ":handshake: **Kracht in eenheid: ** Combineer de verschillende krachten van je bondgenoten in een onverslaanbare macht.\n:trophy: **Prestatie beloningen: ** Vier de overwinningen met epische beloningen en erkenning.\n:japanese_castle: **Sterke community: ** Vorm blijvende vriendschappen!"
+    footer: 'Mogen de vriendschappen die je maakt onbreekbaar zijn en je glorie eeuwig zijn!'
   management_embed:
     title: "**:gear: Alliance Management:**"
     desc: "This view menu is **only** for the owner of the alliance.\nThe owner has to note that any change cannot be undone."
   creation_success_embed:
-    title: 'Successfully created the following alliance:'
+    title: 'Het maken van het volgende bondgenootschap is succesvol:'
     field1:
-      title: '**Alliance name:**'
+      title: '**Naam bondgenootschap: **'
     field2:
-      title: '**User limit:**'
-    footer: 'Show them who rules.'
+      title: '**Gebruikers limiet: **'
+    footer: 'Laat hen zien wie de baas is.'
   members_embed:
     title: 'Alliance Members'
   wars_embed:
