@@ -1,44 +1,44 @@
 alliance:
   creation_embed:
     title: '1. :shield: Création d''alliance - Forger des liens et de la Gloire'
-    description: 'Welcome to the realm of alliances! With our advanced Alliance Creation feature, you can bring together fellow adventurers, warriors and strategists to form an unstoppable alliance. Collaborate, plan, and conquer as a unified force!'
+    description: 'Bienvenue au royaume des alliances ! Grâce à notre fonctionnalité avancée de création d''alliance, vous pouvez rassembler d''autres aventuriers, guerriers et stratèges pour former une alliance imparable. Collaborez, planifiez et conquérez en tant que force unifiée ! alliance. creation_embed. description!'
     field1:
-      title: 'Benefits of Alliance:'
-      value: ":handshake: **Strength in Unity:** Combine the diverse strengths of your members for unbeatable power.\n:trophy: **Achievement Rewards:** Celebrate victories with epic rewards and recognition.\n:japanese_castle: **Strong Community:** Form lasting friendships!"
-    footer: 'May the bonds you create be unbreakable, and the glory you achieve, everlasting!'
+      title: 'Avantages d''Alliance :'
+      value: ":handshake: **La force dans l'unité :** Combinez les diverses forces de vos membres pour un pouvoir imbattable. \n:trophy: **Récompenses de réussite :** Célébrez les victoires avec des récompenses et une reconnaissance épiques.\n:japanese_castle: **Communauté forte ;** Formez des triéridies durables !\nalliance.création embed.field1.value!"
+    footer: 'Que les liens que vous créez soient incassables et que la gloire que vous !'
   management_embed:
-    title: "**:gear: Alliance Management:**"
-    desc: "This view menu is **only** for the owner of the alliance.\nThe owner has to note that any change cannot be undone."
+    title: "**:gear: Gestion d'alliance :**"
+    desc: "Ce menu d'affichage est **uniquement** réservé au propriétaire de l'alliance. Le propriétaire doit noter que toute modification ne peut être annulée."
   creation_success_embed:
-    title: 'Successfully created the following alliance:'
+    title: 'Création réussie de l''alliance suivante :'
     field1:
-      title: '**Alliance name:**'
+      title: '**Nom de l''alliance :**'
     field2:
-      title: '**User limit:**'
-    footer: 'Show them who rules.'
+      title: '**Limite d''utilisateurs :**'
+    footer: 'Montrez-leur qui règne.'
   members_embed:
-    title: 'Alliance Members'
+    title: 'Membres de l''Alliance'
   wars_embed:
-    title: 'Wars:'
-    description_ifwars: "These are all the wars our alliance is currently in.\nFor specific information, click any of the wars in the dropdown menu."
-    description_nowars: 'We have yet to show our war potential. Things are peaceful around here.'
+    title: 'Guerres:'
+    description_ifwars: "Ce sont toutes les guerres dans lesquelles notre alliance se trouve actuellement. \nPour des informations spécifiques, cliquez sur l'une des guerres dans la liste déroulante."
+    description_nowars: 'Nous devons encore montrer notre potentiel de guerre. Les choses sont paisibles ici.'
   truce_embed:
-    title: '**Alliance truced wars:**'
-    desc_truced: "These are all the alliances we have and signed the truce with.\nFor specific information, click any of the wars in the dropdown menu."
-    desc_notruce: 'We have yet to seal any deal of peace with our enemies!'
+    title: '**L''Alliance a mis fin aux guerres :**'
+    desc_truced: "Ce sont toutes les alliances avec lesquelles nous avons signé la trêve. Pour des informations spécifiques, cliquez sur l'une des guerres dans la liste déroulante."
+    desc_notruce: 'Nous n’avons pas encore conclu d’accord de paix avec nos ennemis !'
   transactions_embed:
-    title: "**Alliance Transactions:**"
-    desc: "These are all the transactions made by the alliance members.\nFor specific information, click any of the transactions in the dropdown menu."
-    desc_no_transactions: "You don't seem to have any transactions yet."
+    title: "**Transactions d'alliance :**"
+    desc: "Ce sont toutes les transactions effectuées par les membres de l'alliance. Pour des informations spécifiques, cliquez sur l’une des transactions dans le menu déroulant."
+    desc_no_transactions: "Vous ne semblez avoir encore aucune transaction."
   management_buttons:
-    alliance_members: 'Members'
-    alliance_wars: 'Wars'
-    alliance_peace: 'Peace'
-    alliance_disband: 'Alliance Management'
-    alliance_view_transactions: 'View Transactions'
+    alliance_members: 'Membres'
+    alliance_wars: 'Guerres'
+    alliance_peace: 'Paix'
+    alliance_disband: 'Gestions des Alliances'
+    alliance_view_transactions: 'Afficher les transactions'
   alliance_war_format:
-    against_title: 'War against `{defender}` (War ID: `{war_id}`)'
-    against_desc: "**Attacker:** {attacker}\n{emote1} **Truced**: No\n{emote2} **Attacker Truce Request:** {attacker_truce}\n{emote3} **Defender Truce Request:** {defender_truce}"
+    against_title: 'Guerre contre `{defender}` (Guerre ID : `{war_id} `)'
+    against_desc: "**Attaquer:** {attacker}\n{emote1} **Trêve **: Non\n{emote2} **demande de trêve des attaquants:** {attacker_truce}\n{emote3} **Demande de trêve des défenseurs:** {defender_truce}"
     with_title: 'War with `{attacker}` (War ID: `{war_id}`)'
     with_desc: "**Defender:** {defender}\n{emote1} **Truced**: No\n{emote2} **Attacker Truce Request:** {attacker_truce}\n{emote3} **Defender Truce Request:** {defender_truce}"
   alliance_truce_format:
