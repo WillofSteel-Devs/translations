@@ -1,1 +1,25 @@
-{}
+bot:
+  alliance:
+    creation_embed_title: '1. :shield: Creëer een Bondgenootschap - Vecht samen for
+      vriendschap en roem'
+    creation_embed_description: Welkom tot het rijk van bondgenootschappen! Met ons
+      geavanceerd bondgenootschap functie, kun je andere avonturiers, strijders and
+      strategen samen brengen in een niet te stoppen bondgenootschap. Werk samen om
+      te veroveren als een eenheid!
+    creation_embed_field1_title: 'Voordelen van een Bondgenootschap:'
+    creation_embed_field1_value: ':handshake: **Kracht in Eendracht:** Combineer de
+      verschillende kwaliteiten van je leden om een onverslaanbare eenheid te vormen.\n:trophy:
+      **Prestatie Beloningen:** Vier overwinningen met grandioze beloningen en erkenning.\n:japanese_castle:
+      **Sterke Gemeenschap:** Vorm blijvende vriendschappen!'
+    creation_embed_footer: Mogen banden die je opbouwt onbreekbaar zijn en de roem
+      die je bereikt oneindig zijn!
+    management_embed_title: Bondgenootschap Informatie"
+    management_embed_field1_title: ':scroll: **Naam Bondgenootschap:**'
+    management_embed_field1_value: '{alliance_name}'
+    management_embed_field2_title: ':family_mmgb: **Deelnemerslimiet:**'
+    management_embed_field2_value: '{alliance_user_limit}'
+    error_member_of_alliance: Je zit al in een bondgenootschap, verlaat deze als je
+      je eigen wil maken!
+    error_not_enough_rubies: Je hebt niet genoeg robijnen om een bondgenootschap te
+      maken. Je hebt `600` {ruby_emote} nodig.
+    error_invalid_name: Er bestaat al een bondgenootschap met deze naam!
